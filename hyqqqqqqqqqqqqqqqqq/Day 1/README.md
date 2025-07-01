@@ -1,7 +1,6 @@
 ## 线性规划
 ### 标准形式：
-```
-$$
+```math
 \begin{aligned}
 & \min_{x} c^T x \\
 & \text{s.t.} \\
@@ -11,7 +10,6 @@ $$
   lb \leq x \leq ub 
 \end{cases}
 \end{aligned}
-$$
 ```
 注意：标准形式要求最小值，如果实际上抽象出来的是最大值约束，就所有的加负号
 
