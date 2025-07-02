@@ -42,14 +42,14 @@
 
 ### 3. 混合整数规划 (Mixed Integer Programming, MIP)
 - **决策变量**：部分变量为整数，部分为实数
-- 
+- ```math
   $$
   \begin{cases}
   x_k \in \mathbb{Z}^+ & k \in I \\
   x_l \in \mathbb{R}^+ & l \notin I
   \end{cases}
   $$
-  
+  ```
   （其中 $I$ 为整数变量下标集合）
 
 ### 4. 0-1整数规划 (Binary Integer Programming)
